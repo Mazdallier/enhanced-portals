@@ -203,37 +203,37 @@ ep3.gui.sending=Envoi
 ep3.gui.receiving=Réception
 
 # Errors
-ep3.error=[Erreur] ###
+ep3.error=[Erreur] 
 ep3.error.noUidSet=Vous devez mettre un identifiant unique avant de faire celà
 ep3.error.voidLinkCard=Cette carte n'est plus liée à un stabilisateur de pont dimensionnel valide
 ep3.error.receivingPortalNotInitialized=Le portail de réception n'a pas été initialisé
 ep3.error.sendingPortalNotInitialized=Le portail d'envoi n'a pas été initialisé
-ep3.error.stabilizerNotFound=The SPD could not be found. Insert a new valid Location Card to continue
-ep3.error.receivingPortalNoDialler=You cannot dial a portal that does not have a Dialing Device
-ep3.error.sendingPortalNoDialler=You cannot dial from a portal that does not have a Dialing Device
-ep3.error.uniqueIdentifierNotSet=You cannot dial without setting a unique identifier
-ep3.error.networkIdentifierNotSet=You cannot dial without setting a network identifier
-ep3.error.dialDeviceNotFound=You cannot dial without a Dialing Device
-ep3.error.diallingPortalAlreadyActive=You cannot dial from a portal that already has an active connection
-ep3.error.receivingPortalAlreadyActive=You cannot dial to a portal that is already active
-ep3.error.notEnoughPowerToStart=There is not enough power in the DBS to create a connection
-ep3.error.maxedConnectionLimit=The DBS has too many active connections
-ep3.error.cannotDialDiallingPortal=You cannot dial the same portal you're dialing from
-ep3.error.diallingPortalNotFound=Failed to locate the portal that you are dialing from
-ep3.error.receivingPortalNotFound=Failed to locate the receiving portal
-ep3.error.notOnSameStabilizer=The portals are not connected to the same DBS
-ep3.error.sendingPortalFailedToCreatePortal=The sending Portal Controller failed to create a portal
-ep3.error.receivingPortalFailedToCreatePortal=The receiving Portal Controller failed to create a portal
-ep3.error.noPortalWithThatIdentifierReceiving=Could not find an exit portal with that UID
-ep3.error.noPortalWithThatIdentifierSending=Could not find a sending portal with that UID (How did you dial...? o_O)
-ep3.error.failedToTransfer=The receiving portal is too small
-ep3.error.multiplePortalControllers=You cannot have multiple Portal Controllers
-ep3.error.multipleProgram=You cannot have multiple Programmable Interfaces
-ep3.error.multipleMod=You cannot have multiple Module Manipulators
-ep3.error.dialAndNetwork=You cannot have a Dialing Device and a Network Interface in the same portal structure
-ep3.error.portalCouldNotBeCreatedHere=A portal could not be created at this location
-ep3.error.failedToCreatePortal=A portal could not be created at this location
-ep3.error.couldNotCreatePortalHere=A portal could not be created at this location
+ep3.error.stabilizerNotFound=Le SPD n'a pu être trouvé. Insérez une nouvelle carte d'emplacement valide pour continuer
+ep3.error.receivingPortalNoDialler=Vous ne pouvez pas numéroter un portail qui n'a pas de dispositif de numérotation
+ep3.error.sendingPortalNoDialler=Vous ne pouvez pas numéroter depuis un portail qui n'a pas de dispositif de numérotation
+ep3.error.uniqueIdentifierNotSet=Vous ne pouvez pas numéroter sans paramétrer un identifiant unique
+ep3.error.networkIdentifierNotSet=Vous ne pouvez pas numéroter sans paramétrer un identifiant réseau
+ep3.error.dialDeviceNotFound=Vous ne pouvez pas numéroter sans un dispositif de numérotation
+ep3.error.diallingPortalAlreadyActive=Vous ne pouvez pas numéroter depuis un portail qui a déjà une connection d'activée
+ep3.error.receivingPortalAlreadyActive=Vous ne pouvez pas numéroter vers un portail qui est déjà actif
+ep3.error.notEnoughPowerToStart=Il n'y a pas assez d'énergie dans le SPD pour créer une connection
+ep3.error.maxedConnectionLimit=Le SPD a trop de connections actives
+ep3.error.cannotDialDiallingPortal=Vous ne pouvez pas numéroter le portail sur lui-même
+ep3.error.diallingPortalNotFound=Impossible de localiser le portail duquel vous numétotez
+ep3.error.receivingPortalNotFound=Impossible de localiser le portail de réception
+ep3.error.notOnSameStabilizer=Les portails ne sont pas connectés au même SPD
+ep3.error.sendingPortalFailedToCreatePortal=Le contrôleur du portail d'envoi n'a pas pu créé un portail
+ep3.error.receivingPortalFailedToCreatePortal=Le contrôleur du portail de réception n'a pas pu créé un portail
+ep3.error.noPortalWithThatIdentifierReceiving=Impossible de trouver un portail de sortie avec cet UID
+ep3.error.noPortalWithThatIdentifierSending=Impossible de trouver un portail d'envoi avec cet UID (Comment numérotez-vous...? o_O)
+ep3.error.failedToTransfer=Le portail de réception est trop petit
+ep3.error.multiplePortalControllers=Vous ne pouvez pas avoir des contrôleurs de portails multiples
+ep3.error.multipleProgram=Vous ne pouvez pas avoir des interfaces programmables multiples
+ep3.error.multipleMod=Vous ne pouvez pas avoir des manipulateurs de modules multiples
+ep3.error.dialAndNetwork=Vous ne pouvez pas avoir un dispositif de numérotation et une interface réseau sur la même structure de portail
+ep3.error.portalCouldNotBeCreatedHere=Un portail ne peut pas être créé à cet emplacement
+ep3.error.failedToCreatePortal=Un portail ne peut pas être créé à cet emplacement
+ep3.error.couldNotCreatePortalHere=Un portail ne peut pas être créé à cet emplacement
 
 # Success
 ep3.success=[Succès] 
@@ -263,19 +263,19 @@ ep3.manual.gallery.title=Galerie des éléments
 
 ## Chapter 1:
 ep3.manual.chapter.0.title=Le prélude
-ep3.manual.chapter.0.p.0=The subatomic particles of life and space are now easily manipulated. We have learned to weave them like fine silk for us to reap the benefits. With these concepts at the helm, we can now create harnesses, for micro wormholes to tunnel between space and dimensions.
+ep3.manual.chapter.0.p.0=Les particules sub-atomique de la vie et de l'espace sont maintenant facilement manipulables. Nous avons appris à les tisser comme une fine soie pour nous afin d'en récolter les avantages. Avec ces concepts en tête, nous pouvons maintenant créer des harnais, pour ouvrir des tunnel de micro trous de ver entre l'espace et les dimensions.
 
 ## Chapter 2:
 ep3.manual.chapter.1.title=Les bases
-ep3.manual.chapter.1.p.0=The principals behind channeling a wormhole starts with constructing a Dimensional Bridge Stabilizer. This device will allow you to maintain and transport Bio Information across great distances.
-ep3.manual.chapter.1.p.1=To sustain a wormhole you will need to create a frame which can withstand and encapsulate a wormhole formation. These are known as portal frames.
-ep3.manual.chapter.1.p.2=Finally you will need a method that will being the portal. This can be anything from a simple button to a Dialing Device.
+ep3.manual.chapter.1.p.0=les principes, afin de cannaliser les trou de ver, débutent par la construction d'un stabilisateur de pont dimensionnel. Ce dispositif vous autorisera le maintien et le transport des informations biologiques à travers de grandes distances.
+ep3.manual.chapter.1.p.1=Pour maintenir un trou de ver, vous serez ammené à créer un cadre qui pourra résister à et confiner la formation du trou de ver. On connaît ceux-ci comme des cadres de portail.
+ep3.manual.chapter.1.p.2=Finalement, vous aurez besoin d'une méthode qui le fera devenir un portail. Ceci peut être n'importe quoi, d'un simple bouton jusqu'au dispositif de numérotation.
 
 ## Chapter 3:
 ep3.manual.chapter.2.title=Stabiliser les dimensions
-ep3.manual.chapter.2.p.0=The Dimensional Bridge Stabilizer allows several simultaneous wormholes to be created depending on it's volume.
-ep3.manual.chapter.2.p.1=To create a SPD, place 12 Dimensional Bridge Stabilizer blocks in a configuration of 2 high, 3 wide, 2 long (2x3x2), or 2 high, 3 wide, 3 long, and right click on any block with a wrench. If configured correctly, a functional SPD will form.
-ep3.manual.chapter.2.p.2=Each tier of a SPD will allow you to maintain 2 more portals and you may create up to 256 tiers from a single DBS. You cannot add on extra tiers once a DBS is formed, so plan accordingly or you may have to relink any pre-existing portals if you break the DBS. A DBS can hold a charge of about 15,000 RF per tier, and will expend it's storage as portals are being used. If you chose to minimize the power level that the DBS feeds the wormholes, the result will be instability. Instability within a wormhole brings with it unclear side effects, and molecular rearrangement has not been unheard of.
+ep3.manual.chapter.2.p.0=Le stabilisateur de pont dimensionnel autorise la création de plusieurs trous de ver simultanément suivant son volume.
+ep3.manual.chapter.2.p.1=Pour créer un SPD, placez 12 bloc de stabilisateur de pont dimensionnel dans la configuration de 2 de haut, 3 de large et 2 de long (2x3x2), ou bien de 2 de haut, 3 de large et 3 de long, Puis cliquez-droit sur n'importe quel bloc avec une clef. Si la configuration est correcte, un SPD fonctionnel sera formé.
+ep3.manual.chapter.2.p.2=Chaque niveau d'un SPD vous autorisera le maintien de 2 autres portails et vous pouvez créer jusqu'à 256 niveau sur un seul SPD. Vous ne pouvez pas ajouter de niveaux supplémentaires une fois que le SPD est formé. Donc planifiez en conséquence ou vous pourrez avoir à relier tous les portails pré-existants si vous cassez le SPD. Un SPD peut contenir une charge d'environ 15.000 RF par niveau, et il étendra son stockage dès que les portails seront utilisés. Si vous choisisez de minimiser le niveau de puissance afin que le SPD alimente les trous de ver, le résultat sera l'instabilité. L'instabilité dans un trou de ver apporte des effets secondaires peu clairs et, avec cela, le réarrangement moléculaire n'apporte pas que des résultats inouïs.
 
 ## Chapter 4:
 ep3.manual.chapter.3.title=Construction du harnais
